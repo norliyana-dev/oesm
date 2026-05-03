@@ -11,6 +11,7 @@ A web-based system built using Laravel that allows lecturers to create exams and
 
 ## 🛠️ Tech Stack
 - Laravel 11
+- Laravel Breeze
 - MySQL Database
 - Blade Templates
 - Tailwind CSS
