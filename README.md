@@ -1,4 +1,4 @@
-# Online Exam Management System
+# Online Exam and Student Management System
 
 **Created By:** Norliyana Aisyah
 
@@ -10,8 +10,8 @@ A web-based system built using Laravel that allows lecturers to create exams and
 ---
 
 ## 🛠️ Tech Stack
-- Laravel 10+
-- MySQL
+- Laravel 11
+- MySQL Database
 - Blade Templates
 - Tailwind CSS
 - JavaScript (Vanilla + SweetAlert)
@@ -23,8 +23,8 @@ A web-based system built using Laravel that allows lecturers to create exams and
 
 ### 1. Clone Repository
 ```bash
-git clone [repository-link]
-cd project-folder
+git clone https://github.com/norliyana-dev/oesm.git
+cd oesm
 ```
 
 ---
@@ -40,7 +40,7 @@ cp .env.example .env
 ```env
 APP_NAME=OESM
 APP_ENV=local
-APP_KEY=base64:xxx
+APP_KEY=your_key
 APP_DEBUG=true
 APP_TIMEZONE=Asia/Kuala_Lumpur
 APP_URL=http://localhost
