@@ -15,11 +15,11 @@ class SubjectController extends Controller
     {
         $subjects = Subject::with('lecturer')
             ->withCount('classrooms')
+            ->where('lecturer_id', auth()->id())
             ->get();
 
         return view('subject.index', compact('subjects'));
     }
-
     /**
      * Show the form for creating a new resource.
      */
