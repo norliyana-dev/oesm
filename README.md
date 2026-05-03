@@ -20,6 +20,20 @@ A web-based system built using Laravel that allows lecturers to create exams and
 
 ---
 
+## 🔐 Demo Accounts
+
+You may log in using the following pre-configured accounts:
+
+### 👨‍🏫 Lecturer
+- **Email:** iskandar@utm.my  
+- **Password:** abcd1234  
+
+### 👩‍🎓 Student
+- **Email:** jenice@student.utm.my  
+- **Password:** abcd1234  
+
+---
+
 ## ⚙️ Installation Guide
 
 ### 1. Clone Repository
